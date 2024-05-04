@@ -1,26 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
 body{
     background-color: #6E5C62;
-    font-family: "Roboto", sans-serif;
+    color: #FAFAFF;
 }
 
 .enem-question-container{
     border: 3px solid green;
 }
 
+
 .index-container *{
     display: inline-block;
-    background-color: red;
     padding: 7px;
     border-radius: 100%;
     color: #191A1A;
 }
+.index-container h1{
+    padding: 0;
+    color: #FAFAFF;
+}
 .index-blue{
-
+    background-color: #01BDF2;
 }
 .index-rose{
-    
+    background-color: #F166A7;
 }
 .index-yellow{
     background-color: #FFF461;
@@ -32,4 +42,12 @@ body{
 .support-text-container img{
     max-height: 800px;
     max-width: 100%;
+}
+
+.answers-container button{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin: 10px 0px;
+    padding: 4px 0px;
 }
